@@ -1,0 +1,104 @@
+  #data-analytics-projects {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-top: 100px;
+  }
+  hr {
+    border-top: 4px solid red;
+  }
+  
+  h3{
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  h5{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  a {
+    color: rgb(11, 158, 153);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  body {
+    background-color: whitesmoke;
+    background-image: url('Images/pict2.gif');
+    background-size: cover;
+    
+  }
+  #menu li.other {
+    margin-left: 600px;
+  }
+  #menu li.other:hover{
+    background: blue;
+  }
+  #menu li.other1:hover{
+    background: blue;
+  }
+  #menu {
+    background-color: white;
+    height: 50px;
+  }
+  #menu li {
+    display: inline-block;
+    margin: 10px;
+  }
+  #menu li.active{
+    color: black;
+  }
+  #menu li a{
+    text-decoration: none;
+    color: black;
+  }
+  #menu li:hover{
+    background: rgb(11, 158, 153);
+  }
+  #menu li a,
+  #menu li.active a{
+    padding: 2px 75px;
+    display: block;
+  }
+  #menu li.active a{
+    color: black;
+  }
+  #menu{
+    position: relative;
+    top:0;
+    left:0;
+    height: 50px;
+    z-index: 80;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(11, 158, 153);
+  }
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    margin-left: 580px;
+  }
+ 
+  
+  /* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 480px) {
+  .navbar {
+    background-color: rgb(12, 173, 167);
+}
+}
